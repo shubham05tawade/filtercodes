@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><span>COVERING</span> NEWS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid pt-5" id="box">
+        <h1 class="h1">TOP 10 STORIES AROUND THE GLOBE</h1>
+        <div class="read-mode">
+            <span class="light-mode" onclick="lightMode()">☀️</span>
+            <span class="dark-mode" onclick="darkMode()">🌙</span>
+        </div>
+        <hr/>
+        <p>Editor: John Doe | Published Date: 26th November 2020</p>
+        <div class="row pt-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1020/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-1</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1000/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-2</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1003/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-3</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1029/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-4</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1033/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-5</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1037/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-6</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 pb-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1058/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-7</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1060/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-8</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://picsum.photos/id/1069/500/500" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">#article-9</h5>
+                        <hr/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus ullamcorper mauris, at volutpat arcu tempor ut. Suspendisse potenti. Vestibulum tempor diam et nulla ornare, sed molestie sem mattis. Mauris aliquam pulvinar felis et interdum. Aenean rhoncus cursus sapien sit amet tristique. Etiam magna diam, suscipit ut tempus a, hendrerit et orci. Cras non est at magna facilisis placerat. Sed consequat lectus in tortor vulputate maximus. Nullam molestie quam et nunc mattis vulputate. Suspendisse potenti. Sed pellentesque ex a ullamcorper rhoncus. Sed ornare massa sit amet sapien facilisis aliquet.</p>
+                        <button class="btn btn-warning">READ FULL ARTICLE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        function lightMode(){
+            document.getElementById('box').style.color = "#000";
+            document.getElementById('box').style.backgroundColor = "#fff";
+            for(var i=0; i<9; i++){
+                document.getElementsByClassName('card')[i].style.backgroundColor = "#fbfbfb";
+                document.getElementsByClassName('card')[i].style.color = "#000";
+            }
+        } 
+        function darkMode(){
+            document.getElementById('box').style.backgroundColor = "#1c1c1c";
+            document.getElementById('box').style.color = "#fff";
+            for(var i=0; i<9; i++){
+                document.getElementsByClassName('card')[i].style.backgroundColor = "#181818";
+                document.getElementsByClassName('card')[i].style.color = "#fff";
+            }
+        }
+    </script>
+</body>
+</html>
